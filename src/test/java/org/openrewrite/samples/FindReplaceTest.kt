@@ -2,7 +2,6 @@ package org.openrewrite.samples
 
 import org.openrewrite.java.JavaRecipeTest
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions
 
 class FindReplaceTest: JavaRecipeTest {
 	@Test
@@ -13,12 +12,12 @@ class FindReplaceTest: JavaRecipeTest {
 			class A {
 				String hello = "Hi";
 			}
-		"""",
+		""",
 		after = """
 			package com.naga;
 			class A {
 				String hello = "Hello";
 			}
-		""""
+		"""
 	)
 }

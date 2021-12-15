@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.openrewrite.samples;
 
 import org.openrewrite.ExecutionContext;
